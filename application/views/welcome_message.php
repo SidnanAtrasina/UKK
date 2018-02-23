@@ -6,28 +6,28 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Amazing</title>
+        <title>Amazing Travel</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 
-        <link rel="stylesheet" href="gudang/frontend/assets/css/fonticons.css">
-        <link rel="stylesheet" href="gudang/frontend/assets/fonts/stylesheet.css">
-        <link rel="stylesheet" href="gudang/frontend/assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="gudang/frontend/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>gudang/frontend/assets/css/fonticons.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>gudang/frontend/assets/fonts/stylesheet.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>gudang/frontend/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>gudang/frontend/assets/css/bootstrap.min.css">
 
 
         <!--For Plugins external css-->
-        <link rel="stylesheet" href="gudang/frontend/assets/css/plugins.css" />
+        <link rel="stylesheet" href="<?php echo base_url() ?>gudang/frontend/assets/css/plugins.css" />
 
         <!--Theme custom css -->
-        <link rel="stylesheet" href="gudang/frontend/assets/css/style.css">
+        <link rel="stylesheet" href="<?php echo base_url() ?>gudang/frontend/assets/css/style.css">
 
         <!--Theme Responsive css-->
-        <link rel="stylesheet" href="gudang/frontend/assets/css/responsive.css" />
+        <link rel="stylesheet" href="<?php echo base_url() ?>gudang/frontend/assets/css/responsive.css" />
 
-        <script src="gudang/frontend/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="<?php echo base_url() ?>gudang/frontend/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body data-spy="scroll" data-target=".navbar-collapse">
         <!--[if lt IE 8]>
@@ -50,7 +50,7 @@
                                             <span class="icon-bar"></span>
                                         </button>
                                         <a class="navbar-brand" href="#home">
-                                            <img src="gudang/frontend/assets/images/logo.png"/>
+                                            <img src="<?php echo base_url() ?>gudang/frontend/assets/images/logo.png"/>
                                         </a>
                                     </div>
 
@@ -61,10 +61,9 @@
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                         <ul class="nav navbar-nav navbar-right">
                                             <li><a href="#home">Home</a></li>
-                                            <li><a href="#service">Service</a></li>
-                                            <li><a href="#portfolio">portfolio</a></li>
-                                            <li><a href="#counter">Counter Us</a></li>
-                                            <li><a href="#contact">Contact</a></li>
+                                            <li><a href="#book">Book</a></li>
+                                            <li><a href="#contact">Contact Us</a></li>
+                                            <li><a href="<?php echo base_url() ?>/Login">Login</a></li>
                                         </ul>    
                                     </div>
 
@@ -91,10 +90,11 @@
                                 <div class="single_home_slider">
                                     <div class="main_home wow fadeInUp" data-wow-duration="700ms">
                                        <h1>Have an amazing travel</h1>
-                                        <p class="subtitle">Make your dreams come true</p>
+                                        <p class="subtitle">Make your dreams come true!</p>
+                                        <h3>Book Now!</h3>
 
                                         <div class="home_btn">
-                                           <a href="index.php/Login" class="btn btn-md">Login</a>
+                                           <a href="#book" class="btn btn-md">Book</a>
                                         </div>
 
                                     </div>
@@ -102,10 +102,11 @@
                                 <div class="single_home_slider">
                                     <div class="main_home wow fadeInUp" data-wow-duration="700ms">
                                         <h1>Have an amazing travel</h1>
-                                        <p class="subtitle">Make your dreams come true</p>
+                                        <p class="subtitle">Make your dreams come true!</p>
+                                         <h3>Book Now!</h3>
 
                                         <div class="home_btn">
-                                          <a href="index.php/Login" class="btn btn-md">Login</a>
+                                          <a href="#book" class="btn btn-md">Book</a>
                                         </div>
 
                                     </div>
@@ -113,10 +114,11 @@
                                 <div class="single_home_slider">
                                     <div class="main_home wow fadeInUp" data-wow-duration="700ms">
                                         <h1>Have an amazing travel</h1>
-                                        <p class="subtitle">Make your dreams come true</p>
+                                        <p class="subtitle">Make your dreams come true!</p>
+                                         <h3>Book Now!</h3>
 
                                         <div class="home_btn">
-                                            <a href="index.php/Login" class="btn btn-md">Login</a>
+                                            <a href="#book" class="btn btn-md">Book</a>
                                         </div>
 
                                     </div>
@@ -132,206 +134,25 @@
 
 
 
-        <section id="service" class="service">
+        <section id="book" class="service">
             <div class="container">
                 <div class="row">
                     <div class="main_service_area sections"> 
                         <div class="col-sm-6">
                             <div class="signle_service_left">
-                                <h2>What
-                                    We 
-                                    Do</h2>
+                                <h2>Book
+                                    Your
+                                    Flight</h2>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="single_service_right">
-                                <div class="single_service">
-                                    <div class="single_service_icon">
-                                        <i class="lnr lnr-laptop-phone"></i>
-                                    </div>
-                                    <div class="single_service_content">
-                                        <h3>Web Design</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-                                    </div>
-                                </div>
-                                <div class="single_service">
-                                    <div class="single_service_icon">
-                                        <i class="lnr lnr-screen"></i>
-                                    </div>
-                                    <div class="single_service_content">
-                                        <h3>UI/UX Design</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-                                    </div>
-                                </div>
-                                <div class="single_service">
-                                    <div class="single_service_icon">
-                                        <i class="lnr lnr-picture"></i>
-                                    </div>
-                                    <div class="single_service_content">
-                                        <h3>Photography</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-                                    </div>
-                                </div>
-                                <div class="single_service">
-                                    <div class="single_service_icon">
-                                        <i class="lnr lnr-laptop-phone"></i>
-                                    </div>
-                                    <div class="single_service_content">
-                                        <h3>App Development</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-                                    </div>
-                                </div>
+                        <div class="single_service_right">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-
-        <section id="choose" class="choose">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="main_choose_area sections">
-                        <div class="col-sm-7 col-sm-offset-1">
-                            <div class="main_choose_content text-left">
-                                <div class="single_choose_content">
-                                    <h1>Exceptional Customer Service</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                        sed do eiusmod tempor Lorem ipsum dolor sit amet
-                                        consectetur adipiscing elit.</p>
-
-                                    <a href="" class="btn btn-larg">Need to help? lets Chat <i class="lnr lnr-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-        <section id="portfolio" class="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="main_mix_content text-center sections">
-                        <div class="head_title">
-                            <h2>Our Portfolio</h2>
-                        </div>
-                        <div class="main_mix_menu">
-                            <ul>
-                                <li class="btn btn-primary filter" data-filter="all">All</li>
-                                <li class="btn btn-primary filter" data-filter=".cat1">Web</li>
-                                <li class="btn btn-primary filter" data-filter=".cat2">UI/UX</li>
-                                <li class="btn btn-primary filter" data-filter=".cat3">Photography</li>
-                                <li class="btn btn-primary filter" data-filter=".cat4">Branding</li>
-                            </ul>
-                        </div>
-
-                        <div id="mixcontent" class="mixcontent">
-                            <div class="col-md-3 mix cat1 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="gudang/frontend/assets/images/pf1.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat2 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="gudang/frontend/assets/images/pf2.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat1 cat4 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="gudang/frontend/assets/images/pf3.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat3 cat4 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="gudang/frontend/assets/images/pf4.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat4 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="gudang/frontend/assets/images/pf5.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat1 cat2 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="gudang/frontend/assets/images/pf6.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat1 cat2 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="gudang/frontend/assets/images/pf7.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 mix cat1 cat2 no-padding">
-                                <div class="single_mixi_portfolio">
-                                    <img src="gudang/frontend/assets/images/pf7.jpg" alt="" />
-                                    <div class="mixi_portfolio_overlay">
-                                        <div class="overflow_hover_text"> 
-                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
-                                            <a href=""><i class="lnr lnr-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="gap"></div>
-                        </div>
-                    </div>                     
-                </div>
-            </div>
-        </section> <!-- End of portfolio two Section -->        
-
-
+        </section> 
 
 
         <section id="counter" class="counter">
@@ -340,6 +161,7 @@
                     <div class="row">
                         <div class="main_counter sections text-center">
                             <div class="col-sm-10 col-sm-offset-1">
+                             <h1>Our Statistics</h1>
                                 <div class="row">
                                     <div class="col-sm-3 col-xs-12">
                                         <div class="single_counter_right">
@@ -475,15 +297,15 @@
             <a href="#"><i class="fa fa-chevron-up"></i></a>
         </div>
 
-        <script src="gudang/frontend/assets/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="gudang/frontend/assets/js/vendor/bootstrap.min.js"></script>
+        <script src="<?php echo base_url() ?>gudang/frontend/assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="<?php echo base_url() ?>gudang/frontend/assets/js/vendor/bootstrap.min.js"></script>
 
-        <script src="gudang/frontend/assets/js/jquery.easypiechart.min.js"></script>
-        <script src="gudang/frontend/assets/js/jquery.mixitup.min.js"></script>
-        <script src="gudang/frontend/assets/js/jquery.easing.1.3.js"></script>
+        <script src="<?php echo base_url() ?>gudang/frontend/assets/js/jquery.easypiechart.min.js"></script>
+        <script src="<?php echo base_url() ?>gudang/frontend/assets/js/jquery.mixitup.min.js"></script>
+        <script src="<?php echo base_url() ?>gudang/frontend/assets/js/jquery.easing.1.3.js"></script>
 
-        <script src="gudang/frontend/assets/js/plugins.js"></script>
-        <script src="gudang/frontend/assets/js/main.js"></script>
+        <script src="<?php echo base_url() ?>gudang/frontend/assets/js/plugins.js"></script>
+        <script src="<?php echo base_url() ?>gudang/frontend/assets/js/main.js"></script>
 
     </body>
 </html>
